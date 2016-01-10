@@ -1,0 +1,35 @@
+{
+  "name": "graphytejs",
+  "version": "0.0.2",
+  "description": "graphytejs module to GraphyteDB",
+  "main": "graphyteapp.js",
+  "bin": {
+    "graphytejs": "graphyteapp-cli.js"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "bindings": "^1.2.1",
+    "underscore": "^1.8.3"
+  },
+  "gypfile": true,
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "co-fs": "^1.2.0",
+    "co-mocha": "^1.1.0",
+    "mocha": "^2.2.4",
+    "should": "^6.0.1",
+    "sinon": "^1.14.1",
+    "sinon-chai": "^2.7.0"
+  },
+  "scripts": {
+    "test": "node ./test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.apexdatasolutions.net:david.perez/graphytejs.git"
+  },
+  "author": "David Perez",
+  "license": "Copyrigth(c) by Apex Data Solutions,LLC"
+}
